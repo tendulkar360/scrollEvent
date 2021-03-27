@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+body {
+    overflow: hidden;
+    overflow-y: scroll;
+    /* scroll-behavior: smooth; */
+    /* transition: scroll 3s;
+} */
+
+#homee {
+    /* background: url("https://source.unsplash.com/1600x900/?usa"); */
+    background-color: rgb(241, 195, 195);
+    height: 625px;
+    align-items: center;
+}
+
+#aboutt {
+    /* background: url("https://source.unsplash.com/1600x900/?green"); */
+    background-color: rgb(182, 202, 181);
+    height: 625px;
+}
+
+#servicess {
+    /* background: url("https://source.unsplash.com/1600x900/?water"); */
+    background-color: rgb(174, 176, 204);
+    height: 625px;
+}
+
+#contactt {
+    /* background: url("https://source.unsplash.com/1600x900/?nature"); */
+    background-color: rgb(206, 221, 191);
+    height: 625px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.active.active {
+    color: white;
+}
+ 
+.container {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    transition: scroll 5s ease;
+}
+
+section a {
+    font-size: 60px;
+    font-weight: 700;
+    position: absolute;
+    transform: translate(656px,513px) rotateZ(90deg);
+    padding: 5px;
+    cursor: pointer;
+    position: fixed;
+    text-decoration: none;
+    color: white;
+    background: rgb(0,0,0, .4);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: none;
+}
+
+section a:hover {
+    background: rgb(0,0,0, .6);
+}
